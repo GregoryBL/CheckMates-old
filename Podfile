@@ -7,6 +7,7 @@ target 'checkMates' do
 
   # Pods for checkMates
     pod 'Alamofire', '~>3.4'
+    pod 'TesseractOCRiOS', '4.0.0'
 
   target 'checkMatesTests' do
     inherit! :search_paths

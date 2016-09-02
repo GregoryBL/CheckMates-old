@@ -1,12 +1,18 @@
 PODS:
   - Alamofire (3.4.1)
+  - GoogleAnalytics (3.16.0)
+  - TesseractOCRiOS (4.0.0)
 
 DEPENDENCIES:
   - Alamofire (~> 3.4)
+  - GoogleAnalytics
+  - TesseractOCRiOS (= 4.0.0)
 
 SPEC CHECKSUMS:
   Alamofire: 01a82e2f6c0f860ade35534c8dd88be61bdef40c
+  GoogleAnalytics: 3de986b2fa29012c69fa415566006a9c9cf25320
+  TesseractOCRiOS: 90638afbe43d082433f2e76b384c7901d23956df
 
-PODFILE CHECKSUM: 4330235bbc41bd3009a6231cd7ec768abe5c7912
+PODFILE CHECKSUM: 75bedb48fbbeddddf19b909c064a90b631bec8e2
 
 COCOAPODS: 1.0.1
