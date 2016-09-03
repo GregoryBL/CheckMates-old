@@ -1,0 +1,21 @@
+version: "Apple Swift version 2.2 (swiftlang-703.0.18.8 clang-703.0.31)"
+options: "b1fb21f93ea9d38f22c81d3d8aace9e3"
+build_time: [526241286, 302459000]
+inputs:
+  "/Users/amyplant/Desktop/CheckMates/Pods/Alamofire/Source/Alamofire.swift": [526239931, 0]
+  "/Users/amyplant/Desktop/CheckMates/Pods/Alamofire/Source/Download.swift": [526239931, 0]
+  "/Users/amyplant/Desktop/CheckMates/Pods/Alamofire/Source/Error.swift": [526181677, 0]
+  "/Users/amyplant/Desktop/CheckMates/Pods/Alamofire/Source/Manager.swift": [526239931, 0]
+  "/Users/amyplant/Desktop/CheckMates/Pods/Alamofire/Source/MultipartFormData.swift": [526239931, 0]
+  "/Users/amyplant/Desktop/CheckMates/Pods/Alamofire/Source/NetworkReachabilityManager.swift": [526239931, 0]
+  "/Users/amyplant/Desktop/CheckMates/Pods/Alamofire/Source/Notifications.swift": [526239931, 0]
+  "/Users/amyplant/Desktop/CheckMates/Pods/Alamofire/Source/ParameterEncoding.swift": [526239931, 0]
+  "/Users/amyplant/Desktop/CheckMates/Pods/Alamofire/Source/Request.swift": [526239931, 0]
+  "/Users/amyplant/Desktop/CheckMates/Pods/Alamofire/Source/Response.swift": [526239931, 0]
+  "/Users/amyplant/Desktop/CheckMates/Pods/Alamofire/Source/ResponseSerialization.swift": [526239931, 0]
+  "/Users/amyplant/Desktop/CheckMates/Pods/Alamofire/Source/Result.swift": [526239931, 0]
+  "/Users/amyplant/Desktop/CheckMates/Pods/Alamofire/Source/ServerTrustPolicy.swift": [526239931, 0]
+  "/Users/amyplant/Desktop/CheckMates/Pods/Alamofire/Source/Stream.swift": [526239931, 0]
+  "/Users/amyplant/Desktop/CheckMates/Pods/Alamofire/Source/Timeline.swift": [526239931, 0]
+  "/Users/amyplant/Desktop/CheckMates/Pods/Alamofire/Source/Upload.swift": [526239931, 0]
+  "/Users/amyplant/Desktop/CheckMates/Pods/Alamofire/Source/Validation.swift": [526239931, 0]

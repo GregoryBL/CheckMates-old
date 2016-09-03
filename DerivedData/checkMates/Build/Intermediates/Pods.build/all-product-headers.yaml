@@ -1,0 +1,60 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/amyplant/Desktop/CheckMates/DerivedData/checkMates/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Alamofire-Swift.h",
+          'external-contents': "/Users/amyplant/Desktop/CheckMates/DerivedData/checkMates/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "Alamofire-umbrella.h",
+          'external-contents': "/Users/amyplant/Desktop/CheckMates/Pods/Target Support Files/Alamofire/Alamofire-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/amyplant/Desktop/CheckMates/DerivedData/checkMates/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/amyplant/Desktop/CheckMates/DerivedData/checkMates/Build/Intermediates/Pods.build/Debug-iphonesimulator/Alamofire.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/amyplant/Desktop/CheckMates/DerivedData/checkMates/Build/Products/Debug-iphonesimulator/Pods_checkMates.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Pods-checkMates-umbrella.h",
+          'external-contents': "/Users/amyplant/Desktop/CheckMates/Pods/Target Support Files/Pods-checkMates/Pods-checkMates-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "Pods_checkMates-Swift.h",
+          'external-contents': "/Users/amyplant/Desktop/CheckMates/DerivedData/checkMates/Build/Products/Debug-iphonesimulator/Pods_checkMates.framework/Headers/Pods_checkMates-Swift.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/amyplant/Desktop/CheckMates/DerivedData/checkMates/Build/Products/Debug-iphonesimulator/Pods_checkMates.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/amyplant/Desktop/CheckMates/DerivedData/checkMates/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-checkMates.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}
