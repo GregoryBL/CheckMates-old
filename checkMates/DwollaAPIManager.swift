@@ -10,9 +10,16 @@
 
 import Foundation
 import Alamofire
+import SwiftyJSON
 
 class DwollaAPIManager {
+    
+    
+    
     static let sharedInstance = DwollaAPIManager()
+    
+    var OAuthToken: String?
+    var refreshToken: String?
     
     let clientID = valueForAPIKey(named: "DWOLLA_APP_ID")
     let clientSecret = valueForAPIKey(named: "DWOLLA_SECRET_KEY")
@@ -26,6 +33,9 @@ class DwollaAPIManager {
     
     func hasOAuthToken() -> Bool {
         // TODO: implement
+        if let token = self.OAuthToken {
+            return !token.isEmpty
+        }
         return false
     }
     
@@ -36,11 +46,22 @@ class DwollaAPIManager {
         let authPath = "https://uat.dwolla.com/oauth/v2/authenticate?client_id=\(clientID)&response_type=code&redirect_uri=\(redirectURI)&scope=\(scope)"
         if let authURL = NSURL(string: authPath) {
             print("sending")
+            let defaults = NSUserDefaults.standardUserDefaults()
+            defaults.setBool(true, forKey: "loadingOAuthToken")
+            
             UIApplication.sharedApplication().openURL(authURL)
         }
         
-        // TODO: implement
-        // TODO: call completion handler after getting token or error
+        if self.hasOAuthToken() {
+            if let completionHandler = self.OAuthTokenCompletionHandler {
+                completionHandler(nil)
+            }
+        } else {
+            if let completionHandler = self.OAuthTokenCompletionHandler {
+                let noOAuthError = NSError(domain: "com.alamofire.error", code: -1, userInfo: [NSLocalizedDescriptionKey: "Could not obtain an OAuth token", NSLocalizedRecoverySuggestionErrorKey: "Please retry your request"])
+                completionHandler(noOAuthError)
+            }
+        }
     }
     
     func processOAuthStep1Response(url: NSURL) {
@@ -64,11 +85,9 @@ class DwollaAPIManager {
             "grant_type": "authorization_code",
             "redirect_uri": redirectURI
         ]
-        print(tokenParams)
         Alamofire.request(.POST, getTokenPath, parameters: tokenParams!, encoding: .JSON)
             .validate()
             .response { request, response, data, error in
-                // TODO: handle response to extract OAuth token
                 if let anError = error {
                     print(anError)
                     if let completionHandler = self.OAuthTokenCompletionHandler {
@@ -77,12 +96,23 @@ class DwollaAPIManager {
                     }
                     return
                 }
-                print(String(request?.HTTPBody))
-                print(response)
             }
-            .responseJSON { request in
+            .responseData { request in
                 print("request")
-                print(request)
+                print(request.result.value)
+                let returnValue = JSON(data: request.result.value!)
+                if let a_token = returnValue["access_token"].string {
+                    self.OAuthToken = a_token
+                } else {
+                    print(returnValue["access_token"])
+                }
+                if let r_token = returnValue["refresh_token"].string {
+                    self.refreshToken = r_token
+                } else {
+                    print(returnValue["refresh_token"])
+                }
+                print(self.OAuthToken)
+                print(self.refreshToken)
         }
     }
 }

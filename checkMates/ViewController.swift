@@ -9,11 +9,14 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    var OAuthTokenCompletionHandler : (NSError? -> Void)?
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        DwollaAPIManager.sharedInstance.startOAuth2Login()
+        
+        loadInitialData()
         print("Sent off")
     }
 
@@ -23,5 +26,13 @@ class ViewController: UIViewController {
     }
 
 
+}
+
+func loadInitialData() {
+    if (!DwollaAPIManager.sharedInstance.hasOAuthToken()) {
+        DwollaAPIManager.sharedInstance.startOAuth2Login()
+    } else {
+        // Make a request
+    }
 }
 
