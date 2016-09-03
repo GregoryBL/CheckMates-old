@@ -4,6 +4,16 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>AeroGearHttp.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>AeroGearOAuth2.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Alamofire.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -15,6 +25,11 @@
 			<false/>
 		</dict>
 		<key>Pods-checkMatesTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>SwiftyJSON.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -32,7 +47,22 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>842FEDE581E789EC95C4AD81707B640B</key>
+		<key>8E87CBA9EBF6671AAFD3A8CCD2C3875B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B6184234CE5B97D6DADDB68315E67B58</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D3BB5A02C44EC7005EE0D3C909A6EBDB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D8DACE93B58C99208F385B849EB5639D</key>
 		<dict>
 			<key>primary</key>
 			<true/>

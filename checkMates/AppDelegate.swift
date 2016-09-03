@@ -8,6 +8,7 @@
 
 import UIKit
 import CoreData
+import AeroGearOAuth2
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -42,6 +43,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
         // Saves changes in the application's managed object context before the application terminates.
         self.saveContext()
+    }
+    
+//    func application(application: UIApplication, openURL url: NSURL, sourceApplication: String?, annotation: AnyObject) -> Bool {
+//        let notification = NSNotification(name: AGAppLaunchedWithURLNotification, object: nil, userInfo: [UIApplicationLaunchOptionsURLKey:url])
+//        NSNotificationCenter.defaultCenter().postNotification(notification)
+//        
+//    }
+    
+    func application(application: UIApplication, handleOpenURL url: NSURL) -> Bool {
+        DwollaAPIManager.sharedInstance.processOAuthStep1Response(url)
+        return true
     }
 
     // MARK: - Core Data stack

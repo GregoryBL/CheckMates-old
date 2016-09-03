@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>DWOLLA_APP_ID</key>
+	<string>fe8synmHEBShZhbCpOGWAEZ2hd9UsUCB3RGWE66XH1laIcpkpY</string>
+	<key>DWOLLA_SECRET_KEY</key>
+	<string>JYJct1KNeJUHqGwQdirWzJly5iIvaSGREAGcF9QQx5dSvMTSHB</string>
+</dict>
+</plist>

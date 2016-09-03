@@ -7,6 +7,8 @@ target 'checkMates' do
 
   # Pods for checkMates
     pod 'Alamofire', '~>3.4'
+    pod 'AeroGearOAuth2'
+    pod 'SwiftyJSON'
 
   target 'checkMatesTests' do
     inherit! :search_paths

@@ -1,12 +1,21 @@
 PODS:
+  - AeroGearHttp (0.7.0)
+  - AeroGearOAuth2 (0.7.0):
+    - AeroGearHttp (= 0.7.0)
   - Alamofire (3.4.1)
+  - SwiftyJSON (2.3.2)
 
 DEPENDENCIES:
+  - AeroGearOAuth2
   - Alamofire (~> 3.4)
+  - SwiftyJSON
 
 SPEC CHECKSUMS:
+  AeroGearHttp: 4660c8bf5b56cd00a3b75d7c5ecf94774469df5c
+  AeroGearOAuth2: de4218f60a6228d6cdcf1761277fe8af1115600a
   Alamofire: 01a82e2f6c0f860ade35534c8dd88be61bdef40c
+  SwiftyJSON: 04ccea08915aa0109039157c7974cf0298da292a
 
-PODFILE CHECKSUM: 4330235bbc41bd3009a6231cd7ec768abe5c7912
+PODFILE CHECKSUM: 7402fc2928f02833878cb909368e0715cd879281
 
 COCOAPODS: 1.0.1

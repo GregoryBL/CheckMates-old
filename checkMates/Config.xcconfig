@@ -1,0 +1,8 @@
+//
+//  Config.xcconfig
+//  
+//
+//  Created by Gregory Berns-Leone on 9/2/16.
+//
+//
+DWOLLA_OAUTH_TOKEN = ""

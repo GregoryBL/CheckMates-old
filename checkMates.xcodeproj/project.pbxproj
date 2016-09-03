@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		31B2B97101DE125DCD46C0B7 /* Pods_checkMatesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F55CD159FC7F28D72AB191F /* Pods_checkMatesTests.framework */; };
+		372F893B1D7AEAAA00FD3D01 /* DwollaUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372F893A1D7AEAAA00FD3D01 /* DwollaUser.swift */; };
+		372F893D1D7AEBE200FD3D01 /* Config.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 372F893C1D7AEBE200FD3D01 /* Config.xcconfig */; };
+		372F89411D7AEC3E00FD3D01 /* DwollaRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372F89401D7AEC3E00FD3D01 /* DwollaRequest.swift */; };
+		372F89431D7AF1A900FD3D01 /* APIKeys.plist in Resources */ = {isa = PBXBuildFile; fileRef = 372F89421D7AF1A900FD3D01 /* APIKeys.plist */; };
+		372F89451D7AF23800FD3D01 /* ApiKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372F89441D7AF23800FD3D01 /* ApiKeys.swift */; };
+		3741D9611D7AFD380063CA6A /* DwollaAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3741D9601D7AFD380063CA6A /* DwollaAPIManager.swift */; };
 		37E86A981D79D6AA008C4E13 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E86A971D79D6AA008C4E13 /* AppDelegate.swift */; };
 		37E86A9A1D79D6AA008C4E13 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E86A991D79D6AA008C4E13 /* ViewController.swift */; };
 		37E86A9D1D79D6AA008C4E13 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37E86A9B1D79D6AA008C4E13 /* Main.storyboard */; };
@@ -29,6 +35,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		372F893A1D7AEAAA00FD3D01 /* DwollaUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DwollaUser.swift; sourceTree = "<group>"; };
+		372F893C1D7AEBE200FD3D01 /* Config.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
+		372F89401D7AEC3E00FD3D01 /* DwollaRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DwollaRequest.swift; sourceTree = "<group>"; };
+		372F89421D7AF1A900FD3D01 /* APIKeys.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = APIKeys.plist; sourceTree = "<group>"; };
+		372F89441D7AF23800FD3D01 /* ApiKeys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiKeys.swift; sourceTree = "<group>"; };
+		3741D9601D7AFD380063CA6A /* DwollaAPIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DwollaAPIManager.swift; sourceTree = "<group>"; };
 		37E86A941D79D6AA008C4E13 /* checkMates.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = checkMates.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		37E86A971D79D6AA008C4E13 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		37E86A991D79D6AA008C4E13 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -102,13 +114,19 @@
 		37E86A961D79D6AA008C4E13 /* checkMates */ = {
 			isa = PBXGroup;
 			children = (
+				372F893C1D7AEBE200FD3D01 /* Config.xcconfig */,
 				37E86A971D79D6AA008C4E13 /* AppDelegate.swift */,
+				372F89401D7AEC3E00FD3D01 /* DwollaRequest.swift */,
+				372F893A1D7AEAAA00FD3D01 /* DwollaUser.swift */,
 				37E86A991D79D6AA008C4E13 /* ViewController.swift */,
 				37E86A9B1D79D6AA008C4E13 /* Main.storyboard */,
 				37E86AA11D79D6AA008C4E13 /* Assets.xcassets */,
 				37E86AA31D79D6AA008C4E13 /* LaunchScreen.storyboard */,
 				37E86AA61D79D6AA008C4E13 /* Info.plist */,
 				37E86A9E1D79D6AA008C4E13 /* checkMates.xcdatamodeld */,
+				372F89421D7AF1A900FD3D01 /* APIKeys.plist */,
+				372F89441D7AF23800FD3D01 /* ApiKeys.swift */,
+				3741D9601D7AFD380063CA6A /* DwollaAPIManager.swift */,
 			);
 			path = checkMates;
 			sourceTree = "<group>";
@@ -187,6 +205,7 @@
 				TargetAttributes = {
 					37E86A931D79D6AA008C4E13 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = HVV8UXES66;
 					};
 					37E86AAA1D79D6AA008C4E13 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -218,6 +237,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				372F893D1D7AEBE200FD3D01 /* Config.xcconfig in Resources */,
+				372F89431D7AF1A900FD3D01 /* APIKeys.plist in Resources */,
 				37E86AA51D79D6AA008C4E13 /* LaunchScreen.storyboard in Resources */,
 				37E86AA21D79D6AA008C4E13 /* Assets.xcassets in Resources */,
 				37E86A9D1D79D6AA008C4E13 /* Main.storyboard in Resources */,
@@ -331,7 +352,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				372F89411D7AEC3E00FD3D01 /* DwollaRequest.swift in Sources */,
 				37E86AA01D79D6AA008C4E13 /* checkMates.xcdatamodeld in Sources */,
+				372F89451D7AF23800FD3D01 /* ApiKeys.swift in Sources */,
+				3741D9611D7AFD380063CA6A /* DwollaAPIManager.swift in Sources */,
+				372F893B1D7AEAAA00FD3D01 /* DwollaUser.swift in Sources */,
 				37E86A9A1D79D6AA008C4E13 /* ViewController.swift in Sources */,
 				37E86A981D79D6AA008C4E13 /* AppDelegate.swift in Sources */,
 			);
@@ -465,10 +490,13 @@
 			baseConfigurationReference = 3FB9AF96E783179B2D9DB3A7 /* Pods-checkMates.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = checkMates/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.checkmatesapp.checkMates;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -477,10 +505,13 @@
 			baseConfigurationReference = D04E908A4BFC81243AB043F0 /* Pods-checkMates.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = checkMates/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.checkmatesapp.checkMates;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
