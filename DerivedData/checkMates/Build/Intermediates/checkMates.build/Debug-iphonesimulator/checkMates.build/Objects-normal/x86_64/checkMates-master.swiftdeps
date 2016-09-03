@@ -1,0 +1,6 @@
+version: "Apple Swift version 2.2 (swiftlang-703.0.18.8 clang-703.0.31)"
+options: "0577dc0339f2cd07a730ee428a3c7c0e"
+build_time: [526241295, 419897000]
+inputs:
+  "/Users/amyplant/Desktop/CheckMates/checkMates/ViewController.swift": [526239931, 0]
+  "/Users/amyplant/Desktop/CheckMates/checkMates/AppDelegate.swift": [526239931, 0]
