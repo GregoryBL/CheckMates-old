@@ -7,12 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D9462611D7BC3A400621D3A /* ColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D9462601D7BC3A400621D3A /* ColorExtensions.swift */; };
+		0D9462631D7BD08F00621D3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D9462621D7BD08F00621D3A /* Assets.xcassets */; };
+		0D9462651D7BD64100621D3A /* AddReceiptViewConroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D9462641D7BD64100621D3A /* AddReceiptViewConroller.swift */; };
+		0D9462671D7BD65A00621D3A /* ReceiptsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D9462661D7BD65A00621D3A /* ReceiptsViewController.swift */; };
+		0D9462691D7BD66D00621D3A /* SnapReceiptsViewConroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D9462681D7BD66D00621D3A /* SnapReceiptsViewConroller.swift */; };
+		0D94626B1D7BD97800621D3A /* TabBarControllerClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D94626A1D7BD97800621D3A /* TabBarControllerClass.swift */; };
 		31B2B97101DE125DCD46C0B7 /* Pods_checkMatesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F55CD159FC7F28D72AB191F /* Pods_checkMatesTests.framework */; };
 		37E86A981D79D6AA008C4E13 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E86A971D79D6AA008C4E13 /* AppDelegate.swift */; };
-		37E86A9A1D79D6AA008C4E13 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E86A991D79D6AA008C4E13 /* ViewController.swift */; };
 		37E86A9D1D79D6AA008C4E13 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37E86A9B1D79D6AA008C4E13 /* Main.storyboard */; };
 		37E86AA01D79D6AA008C4E13 /* checkMates.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 37E86A9E1D79D6AA008C4E13 /* checkMates.xcdatamodeld */; };
-		37E86AA21D79D6AA008C4E13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37E86AA11D79D6AA008C4E13 /* Assets.xcassets */; };
 		37E86AA51D79D6AA008C4E13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37E86AA31D79D6AA008C4E13 /* LaunchScreen.storyboard */; };
 		37E86AB01D79D6AA008C4E13 /* checkMatesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E86AAF1D79D6AA008C4E13 /* checkMatesTests.swift */; };
 		A18B52E9BE46F46C4B48CCA8 /* Pods_checkMates.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C29D19A4856EF622B54D053 /* Pods_checkMates.framework */; };
@@ -29,12 +33,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0D9462601D7BC3A400621D3A /* ColorExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorExtensions.swift; sourceTree = "<group>"; };
+		0D9462621D7BD08F00621D3A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0D9462641D7BD64100621D3A /* AddReceiptViewConroller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddReceiptViewConroller.swift; sourceTree = "<group>"; };
+		0D9462661D7BD65A00621D3A /* ReceiptsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReceiptsViewController.swift; sourceTree = "<group>"; };
+		0D9462681D7BD66D00621D3A /* SnapReceiptsViewConroller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapReceiptsViewConroller.swift; sourceTree = "<group>"; };
+		0D94626A1D7BD97800621D3A /* TabBarControllerClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarControllerClass.swift; sourceTree = "<group>"; };
 		37E86A941D79D6AA008C4E13 /* checkMates.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = checkMates.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		37E86A971D79D6AA008C4E13 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		37E86A991D79D6AA008C4E13 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		37E86A9C1D79D6AA008C4E13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		37E86A9F1D79D6AA008C4E13 /* checkMates.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = checkMates.xcdatamodel; sourceTree = "<group>"; };
-		37E86AA11D79D6AA008C4E13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		37E86AA41D79D6AA008C4E13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		37E86AA61D79D6AA008C4E13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		37E86AAB1D79D6AA008C4E13 /* checkMatesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = checkMatesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -103,11 +111,15 @@
 			isa = PBXGroup;
 			children = (
 				37E86A971D79D6AA008C4E13 /* AppDelegate.swift */,
-				37E86A991D79D6AA008C4E13 /* ViewController.swift */,
+				0D9462601D7BC3A400621D3A /* ColorExtensions.swift */,
 				37E86A9B1D79D6AA008C4E13 /* Main.storyboard */,
-				37E86AA11D79D6AA008C4E13 /* Assets.xcassets */,
+				0D94626A1D7BD97800621D3A /* TabBarControllerClass.swift */,
+				0D9462641D7BD64100621D3A /* AddReceiptViewConroller.swift */,
+				0D9462661D7BD65A00621D3A /* ReceiptsViewController.swift */,
+				0D9462681D7BD66D00621D3A /* SnapReceiptsViewConroller.swift */,
 				37E86AA31D79D6AA008C4E13 /* LaunchScreen.storyboard */,
 				37E86AA61D79D6AA008C4E13 /* Info.plist */,
+				0D9462621D7BD08F00621D3A /* Assets.xcassets */,
 				37E86A9E1D79D6AA008C4E13 /* checkMates.xcdatamodeld */,
 			);
 			path = checkMates;
@@ -219,7 +231,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				37E86AA51D79D6AA008C4E13 /* LaunchScreen.storyboard in Resources */,
-				37E86AA21D79D6AA008C4E13 /* Assets.xcassets in Resources */,
+				0D9462631D7BD08F00621D3A /* Assets.xcassets in Resources */,
 				37E86A9D1D79D6AA008C4E13 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -332,8 +344,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				37E86AA01D79D6AA008C4E13 /* checkMates.xcdatamodeld in Sources */,
-				37E86A9A1D79D6AA008C4E13 /* ViewController.swift in Sources */,
+				0D9462671D7BD65A00621D3A /* ReceiptsViewController.swift in Sources */,
+				0D9462691D7BD66D00621D3A /* SnapReceiptsViewConroller.swift in Sources */,
+				0D94626B1D7BD97800621D3A /* TabBarControllerClass.swift in Sources */,
+				0D9462651D7BD64100621D3A /* AddReceiptViewConroller.swift in Sources */,
 				37E86A981D79D6AA008C4E13 /* AppDelegate.swift in Sources */,
+				0D9462611D7BC3A400621D3A /* ColorExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -469,6 +485,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.checkmatesapp.checkMates;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -481,6 +498,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.checkmatesapp.checkMates;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

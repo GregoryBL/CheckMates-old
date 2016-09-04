@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="16A304a" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="16A304a" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="3af-z9-5Of">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!-- Receipts-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="checkMates" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ReceiptsViewController" customModule="checkMates" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -16,11 +17,118 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Receipts" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5il-7U-hOb">
+                                <rect key="frame" x="20" y="20" width="560" height="42"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <color key="textColor" red="0.36301813471502586" green="0.36301813471502586" blue="0.36301813471502586" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="5il-7U-hOb" secondAttribute="bottom" constant="489" id="Qie-Nj-EmB"/>
+                            <constraint firstItem="5il-7U-hOb" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="dMh-U1-XbN"/>
+                            <constraint firstItem="5il-7U-hOb" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="fpK-kM-Hau"/>
+                            <constraint firstItem="5il-7U-hOb" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="wMT-jd-m74"/>
+                        </constraints>
                     </view>
+                    <tabBarItem key="tabBarItem" title=" Receipts" image="ReceiptIcon" id="AIo-0d-fQ6"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="943" y="-530"/>
+        </scene>
+        <!--Snap Receipt-->
+        <scene sceneID="fiQ-6l-ZK6">
+            <objects>
+                <viewController id="2de-44-Hue" customClass="SnapReceiptsViewController" customModule="checkMates" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="qdX-fn-KO9"/>
+                        <viewControllerLayoutGuide type="bottom" id="c9B-lR-Mk4"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="KWE-Ci-eEo">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Snap Receipt" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EMp-Mm-YzO">
+                                <rect key="frame" x="20" y="28" width="560" height="42"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <color key="textColor" red="0.36301813469999999" green="0.36301813469999999" blue="0.36301813469999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="EMp-Mm-YzO" firstAttribute="leading" secondItem="KWE-Ci-eEo" secondAttribute="leadingMargin" id="cj5-Vn-iU4"/>
+                            <constraint firstItem="EMp-Mm-YzO" firstAttribute="top" secondItem="qdX-fn-KO9" secondAttribute="bottom" constant="8" symbolic="YES" id="kSK-KG-6sd"/>
+                            <constraint firstItem="c9B-lR-Mk4" firstAttribute="top" secondItem="EMp-Mm-YzO" secondAttribute="bottom" constant="481" id="kvw-FL-tAN"/>
+                            <constraint firstItem="EMp-Mm-YzO" firstAttribute="trailing" secondItem="KWE-Ci-eEo" secondAttribute="trailingMargin" id="pfK-QZ-01a"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Snap Receipt" image="CameraIcon" id="Pj0-D3-v1m"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rLr-d4-m2S" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="943" y="136"/>
+        </scene>
+        <!--Add Receipt-->
+        <scene sceneID="WSZ-mb-GNK">
+            <objects>
+                <viewController id="et0-Ga-YdU" customClass="AddReceiptsViewController" customModule="checkMates" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="04s-iR-t6M"/>
+                        <viewControllerLayoutGuide type="bottom" id="zQH-6W-v7j"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="PTb-Ur-Y9S">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Add Receipt" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j0I-7o-SFi">
+                                <rect key="frame" x="20" y="28" width="560" height="42"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <color key="textColor" red="0.36301813469999999" green="0.36301813469999999" blue="0.36301813469999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="zQH-6W-v7j" firstAttribute="top" secondItem="j0I-7o-SFi" secondAttribute="bottom" constant="481" id="2f2-rI-vOa"/>
+                            <constraint firstItem="j0I-7o-SFi" firstAttribute="trailing" secondItem="PTb-Ur-Y9S" secondAttribute="trailingMargin" id="50q-qB-HmX"/>
+                            <constraint firstItem="j0I-7o-SFi" firstAttribute="leading" secondItem="PTb-Ur-Y9S" secondAttribute="leadingMargin" id="aoi-Yv-tJC"/>
+                            <constraint firstItem="j0I-7o-SFi" firstAttribute="top" secondItem="04s-iR-t6M" secondAttribute="bottom" constant="8" symbolic="YES" id="b1B-pw-YZ8"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Add Receipt" image="PointerIcon" selectedImage="PointerIcon" id="qyl-A7-q8U"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tLp-y5-rJQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="943" y="909"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="jQ0-pw-plJ">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="3af-z9-5Of" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="LcX-Fv-n46">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <color key="selectedImageTintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="DCl-Xf-fv6"/>
+                        <segue destination="2de-44-Hue" kind="relationship" relationship="viewControllers" id="UqC-7w-oUQ"/>
+                        <segue destination="et0-Ga-YdU" kind="relationship" relationship="viewControllers" id="GKC-tl-Ioc"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rBR-LB-N7F" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="139" y="136"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="CameraIcon" width="25" height="25"/>
+        <image name="PointerIcon" width="25" height="25"/>
+        <image name="ReceiptIcon" width="25" height="25"/>
+    </resources>
 </document>
