@@ -34,3 +34,4 @@ playground.xcworkspace
 *.DS_Store
 .AppleDouble
 .LSOverride
+xcuserdata
