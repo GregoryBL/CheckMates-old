@@ -1,12 +1,18 @@
 PODS:
-  - Alamofire (3.4.1)
+  - Alamofire (3.4.2)
+  - SwiftHEXColors (1.0.4)
+  - UIColor_Hex_Swift (2.1)
 
 DEPENDENCIES:
   - Alamofire (~> 3.4)
+  - SwiftHEXColors
+  - UIColor_Hex_Swift (~> 2.1)
 
 SPEC CHECKSUMS:
-  Alamofire: 01a82e2f6c0f860ade35534c8dd88be61bdef40c
+  Alamofire: 6aa33201d20d069e1598891cf928883ff1888c7a
+  SwiftHEXColors: b0ecc7bd83a1aa2e1956f9ba51f55ebb2bcf86ef
+  UIColor_Hex_Swift: e91dc51f6bf252ec7bf74c8704ceedeeb7640c1c
 
-PODFILE CHECKSUM: 4330235bbc41bd3009a6231cd7ec768abe5c7912
+PODFILE CHECKSUM: 804810b59153f76ddf4545045ce19266ed204f8d
 
 COCOAPODS: 1.0.1
