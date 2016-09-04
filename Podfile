@@ -8,6 +8,8 @@ target 'CheckMates' do
 
   # Pods for CheckMates
    pod 'Alamofire', '~>3.4'
+   pod 'TesseractOCRiOS', '4.0.0'
+   pod 'SwiftyJSON'
 
   target 'checkMatesTests' do
     inherit! :search_paths
