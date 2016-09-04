@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 47;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -39,7 +39,7 @@
 		0D9462661D7BD65A00621D3A /* ReceiptsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReceiptsViewController.swift; sourceTree = "<group>"; };
 		0D9462681D7BD66D00621D3A /* SnapReceiptsViewConroller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapReceiptsViewConroller.swift; sourceTree = "<group>"; };
 		0D94626A1D7BD97800621D3A /* TabBarControllerClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarControllerClass.swift; sourceTree = "<group>"; };
-		37E86A941D79D6AA008C4E13 /* checkMates.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = checkMates.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		37E86A941D79D6AA008C4E13 /* otherName.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = otherName.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		37E86A971D79D6AA008C4E13 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		37E86A9C1D79D6AA008C4E13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		37E86A9F1D79D6AA008C4E13 /* checkMates.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = checkMates.xcdatamodel; sourceTree = "<group>"; };
@@ -90,7 +90,7 @@
 		37E86A8B1D79D6AA008C4E13 = {
 			isa = PBXGroup;
 			children = (
-				37E86A961D79D6AA008C4E13 /* checkMates */,
+				37E86A961D79D6AA008C4E13 /* somethingElse */,
 				37E86AAE1D79D6AA008C4E13 /* checkMatesTests */,
 				37E86A951D79D6AA008C4E13 /* Products */,
 				08A82514BAE31ECCD4AC90F8 /* Pods */,
@@ -101,13 +101,13 @@
 		37E86A951D79D6AA008C4E13 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				37E86A941D79D6AA008C4E13 /* checkMates.app */,
+				37E86A941D79D6AA008C4E13 /* otherName.app */,
 				37E86AAB1D79D6AA008C4E13 /* checkMatesTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		37E86A961D79D6AA008C4E13 /* checkMates */ = {
+		37E86A961D79D6AA008C4E13 /* somethingElse */ = {
 			isa = PBXGroup;
 			children = (
 				37E86A971D79D6AA008C4E13 /* AppDelegate.swift */,
@@ -122,6 +122,7 @@
 				0D9462621D7BD08F00621D3A /* Assets.xcassets */,
 				37E86A9E1D79D6AA008C4E13 /* checkMates.xcdatamodeld */,
 			);
+			name = somethingElse;
 			path = checkMates;
 			sourceTree = "<group>";
 		};
@@ -146,9 +147,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		37E86A931D79D6AA008C4E13 /* checkMates */ = {
+		37E86A931D79D6AA008C4E13 /* otherName */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 37E86AB41D79D6AA008C4E13 /* Build configuration list for PBXNativeTarget "checkMates" */;
+			buildConfigurationList = 37E86AB41D79D6AA008C4E13 /* Build configuration list for PBXNativeTarget "otherName" */;
 			buildPhases = (
 				2E83515F88033C3127E99269 /* [CP] Check Pods Manifest.lock */,
 				37E86A901D79D6AA008C4E13 /* Sources */,
@@ -161,9 +162,9 @@
 			);
 			dependencies = (
 			);
-			name = checkMates;
+			name = otherName;
 			productName = checkMates;
-			productReference = 37E86A941D79D6AA008C4E13 /* checkMates.app */;
+			productReference = 37E86A941D79D6AA008C4E13 /* otherName.app */;
 			productType = "com.apple.product-type.application";
 		};
 		37E86AAA1D79D6AA008C4E13 /* checkMatesTests */ = {
@@ -206,8 +207,8 @@
 					};
 				};
 			};
-			buildConfigurationList = 37E86A8F1D79D6AA008C4E13 /* Build configuration list for PBXProject "checkMates" */;
-			compatibilityVersion = "Xcode 3.2";
+			buildConfigurationList = 37E86A8F1D79D6AA008C4E13 /* Build configuration list for PBXProject "otherName" */;
+			compatibilityVersion = "Xcode 6.3";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -219,7 +220,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				37E86A931D79D6AA008C4E13 /* checkMates */,
+				37E86A931D79D6AA008C4E13 /* otherName */,
 				37E86AAA1D79D6AA008C4E13 /* checkMatesTests */,
 			);
 		};
@@ -366,7 +367,7 @@
 /* Begin PBXTargetDependency section */
 		37E86AAD1D79D6AA008C4E13 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 37E86A931D79D6AA008C4E13 /* checkMates */;
+			target = 37E86A931D79D6AA008C4E13 /* otherName */;
 			targetProxy = 37E86AAC1D79D6AA008C4E13 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -483,8 +484,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = checkMates/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.checkmatesapp.checkMates;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.checkmatesapp.CheckMates;
+				PRODUCT_NAME = otherName;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -496,8 +497,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = checkMates/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.checkmatesapp.checkMates;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.checkmatesapp.CheckMates;
+				PRODUCT_NAME = otherName;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
@@ -511,7 +512,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.checkmatesapp.checkMatesTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/checkMates.app/checkMates";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/otherName.app/otherName";
 			};
 			name = Debug;
 		};
@@ -524,14 +525,14 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.checkmatesapp.checkMatesTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/checkMates.app/checkMates";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/otherName.app/otherName";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		37E86A8F1D79D6AA008C4E13 /* Build configuration list for PBXProject "checkMates" */ = {
+		37E86A8F1D79D6AA008C4E13 /* Build configuration list for PBXProject "otherName" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				37E86AB21D79D6AA008C4E13 /* Debug */,
@@ -540,7 +541,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		37E86AB41D79D6AA008C4E13 /* Build configuration list for PBXNativeTarget "checkMates" */ = {
+		37E86AB41D79D6AA008C4E13 /* Build configuration list for PBXNativeTarget "otherName" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				37E86AB51D79D6AA008C4E13 /* Debug */,
